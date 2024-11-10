@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Amplify Cloud Backend (aktuell generiert)
+#current-cloud-backend/
+
+# Virtuelle Umgebungen und Abhängigkeiten
+.vscode/
+.DS_Store
+.env
+.venv/
+.site-packages/
+
+# Amplify Build-Artefakte
+amplify/.config/local-*
+amplify/backend/amplify-meta.json
+amplify/backend/awscloudformation/
